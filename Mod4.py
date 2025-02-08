@@ -1,8 +1,8 @@
-#Bank
+#1
 balance = float(input("Please enter your bank balance: "))
 print(balance < 100)
 
-#Headlights
+#2
 sensor_threshold = 7
 
 if sensor_threshold < 8:
@@ -10,7 +10,7 @@ if sensor_threshold < 8:
 else:
     print("Headlights Off")
 
-#Movies
+#3
 age = int(input("Please enter your age: "))
 
 if age < 13:
@@ -20,7 +20,7 @@ elif 13 <= age <= 17:
 else:
     print("You can see R rated movies.")
 
-#Store
+#4
 order_total = float(input("Enter the order total: "))
 
 if order_total < 50:
@@ -31,7 +31,8 @@ else:
 total_cost = order_total + shipping_cost
 print(f"The total cost, including shipping, is: ${total_cost:.2f}")
 
-#TF
+#5
+
 # Truth Table for the expression: (A AND B) OR (NOT B)
 # A      B      (A AND B) OR (NOT B)
 # True   True   True
